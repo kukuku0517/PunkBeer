@@ -1,0 +1,15 @@
+구현 기능
+- 맥주 리스트
+	- 무한로딩(pagination)
+	- 새로고침
+	- 검색기능(name/abv)
+	- 이미지 캐싱(Glide) / 데이터 저장(Realm)
+	- 온/오프라인일 경우 따로 처리(오프라인시 local DB에서 데이터 가져옴)
+- 맥주 detail view
+
+ 
+미 해결 이슈
+- 검색 관련해서 예외처리(data type 등)
+- 온라인시 ABV검색 불가
+- detail view nested scrolling 
+- 데이터 불러오기 관련 리팩토링 필요
